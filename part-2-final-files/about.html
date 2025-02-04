@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <!-- Linking Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f7fb; /* Soft background color */
+      line-height: 1.6;
+      color: #555;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #0077b6;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* About Me Section */
+    .about-me-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      gap: 30px;
+      background-color: #ffffff; /* Clean white background */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      border-radius: 8px;
+      margin: 40px;
+      max-width: 1200px;
+      width: 90%;
+      margin-top: 50px;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%; /* Circular profile image */
+      border: 5px solid #0077b6; /* Border color for image */
+      margin-top: 20px;
+    }
+
+    .about-me-text {
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+      color: #555;
+      margin-top: 10px;
+      text-align: justify;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      font-size: 18px;
+    }
+
+    ul li {
+      margin: 10px 0;
+    }
+
+    .technologies {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .tech-img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+
+    /* Styling for smaller screens */
+    @media (max-width: 768px) {
+      .about-me-container {
+        padding: 20px;
+      }
+      .technologies {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="about-me-container">
+    <!-- Profile Image -->
+    <img src="./assets/4ac248d8-2609-4898-9e58-f3c4114f63ca.jpeg" alt="Amit Kumar" class="profile-img">
+
+    <div class="about-me-text">
+      <h1>About Me</h1>
+      <p>Hi, I'm <strong>Amit Kumar</strong>, a passionate and driven final-year B.Tech student, eager to make a significant impact in the field of web development. Over the years, I've honed my skills in both frontend and backend development, allowing me to create full-stack web applications. I am constantly exploring new technologies and tools to keep up with the rapidly changing tech landscape.</p>
+      
+      <h2>Technologies I Work With</h2>
+      <div class="technologies">
+        <img src="./assets/images/html5-3384014_1280.webp" alt="HTML" class="tech-img">
+        <img src="./assets/images/919826.png" alt="React" class="tech-img">
+        <img src="./assets/png-clipart-react-javascript-angularjs-ionic-github-text-logo-thumbnail.png" alt="JavaScript" class="tech-img">
+        <img src="./assets/png-clipart-node-js-javascript-react-logo-express-js-javascript-logo-text-trademark-thumbnail.png" alt="Node.js" class="tech-img">
+      </div>
+      
+      <h2>My Journey</h2>
+      <p>From the very first line of code I wrote, I’ve been captivated by the endless possibilities of web development. I started with basic HTML and CSS, but soon delved into JavaScript and React to bring websites to life with dynamic content. I didn’t stop there — backend development caught my attention, and I became proficient in Node.js, learning how to create robust, scalable server-side applications. This full-stack approach gives me a deeper understanding of how modern web applications work from the ground up.</p>
+      
+      <h2>My Skills</h2>
+      <ul>
+        <li><strong>Frontend Development:</strong> HTML, CSS, JavaScript, React.js</li>
+        <li><strong>Backend Development:</strong> Node.js, Express</li>
+        <li><strong>Databases:</strong> MongoDB, MySQL</li>
+        <li><strong>Version Control:</strong> Git, GitHub</li>
+        <li><strong>Problem-Solving:</strong> Strong analytical and debugging skills</li>
+      </ul>
+
+      <h2>Looking Ahead</h2>
+      <p>As I near the completion of my degree, I’m excited to take on new challenges and contribute to the tech industry. I hope to collaborate with like-minded individuals, building impactful projects and continuously growing as a developer. Ultimately, my goal is to work on innovative solutions that improve lives through technology.</p>
+    </div>
+  </div>
+</body>
+</html>
